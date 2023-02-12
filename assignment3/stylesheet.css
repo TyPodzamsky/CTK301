@@ -1,0 +1,31 @@
+a {
+    color: red;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: yellow;
+}
+h1 {
+    color:cyan ;
+    background-color: black;
+}
+h2 {
+    color:red ;
+    background-color:maroon ;    
+}
+h3 {
+    color:white ;
+    background-color:teal ;     
+}
+h4 {
+    color:black ;
+    background-color:yellow ;
+}
+.important {
+    background-color: yellow;
+}
+#classes {
+    color: darkgoldenrod;
+}
