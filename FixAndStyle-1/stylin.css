@@ -1,0 +1,36 @@
+#bigboi {
+    background-color: #A0AEFF;
+}
+h1 {
+    color: white;
+}
+h2 {
+    color: blue;
+}
+.doctor {
+    color: goldenrod;
+}
+h3 {
+    background-color: yellow;
+}
+a {
+    color: forestgreen;
+    text-decoration: none;
+}
+
+h4 {
+    background-color: darkgreen;
+    color: yellow;
+}
+.green {
+    background-color: lightgreen;
+}
+.red {
+    color: red;
+}
+.highlight {
+    background-color: yellow;
+}
+.hoh {
+    color: blue;
+}
