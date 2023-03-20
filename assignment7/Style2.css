@@ -1,0 +1,10 @@
+main img {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 0;
+}
+aside {
+    font-weight: bold;
+    padding-top: 30px;
+}

@@ -1,0 +1,15 @@
+main img {
+        padding: 10px;
+        width: 270px;
+        border: 0 solid white;
+        float: none;
+        padding-left: 0;
+}
+main {
+    grid-column: span 3;
+}
+.one {
+    width: 270px;
+    display: inline-block;
+    margin: 15px;
+}
