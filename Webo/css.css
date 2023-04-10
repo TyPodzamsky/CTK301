@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    color: #302E32;
+}
+#wrapper {
+    width: 1200px ;
+    height: 1200px;
+    border: 2px solid #FEFBEF;
+    background-color: #302E32;
+    margin: 1em auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+header {
+    color: #FEFBEF;
+    text-decoration: underline;
+    grid-column: span 12;
+    font-size: 48px;
+    text-align: center;
+}
+h2 {
+    font-size: 55px;
+}
+.contact h2 {
+    text-decoration: underline;
+    margin: 12px;
+ }
+.contact {
+    border: 0px solid;
+    background-color: #FEFBEF;
+    grid-column: span 4;
+    width: 280px;
+    height: 360px;
+    margin: 2em;
+    text-align: center;
+    padding: 1em;
+}
+.Year12 {
+    border: 0px solid;
+    width: 240px ;
+    background-color: #FEFBEF;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.Year34 {
+    border: 0px solid;
+    width: 240px ;
+    background-color: #FEFBEF;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+footer {
+    border: 0px solid;
+    background-color: #FEFBEF;
+    grid-column: span 12;
+    padding-left: 1em;
+}
+.year {
+    grid-column: span 8;
+    font-size: 40px;
+    display: inline-block;
+}
