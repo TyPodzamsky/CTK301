@@ -1,0 +1,191 @@
+
+body {
+    background-color: black;
+}
+#wrapper {
+    margin: 24px auto;
+    width: 1200px;
+    border: 1px solid black;
+    background-color: #cccccc;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+header {
+    border: 4px solid rgb(47, 91, 184);
+    background-color: rgb(47, 91, 184);
+    grid-column: span 12;
+    padding: 40px;
+    color: white;
+    font-family: 'Philosopher', sans-serif;
+  }
+
+header h1 {
+    font-weight: normal;
+    text-decoration: underline;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+header h2 {
+    font-weight: normal;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+header img {
+    width: 300px;
+    border: 0px solid #999;
+    background-color: #ccc;
+    border-radius: 800px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    vertical-align: text-top;
+}
+
+.hdrtext {
+    width: 50%;
+    float: left;
+}
+
+.hdrimg {
+    width: 40%;
+    float: left;
+    text-align: center;
+    margin-left: 60px;
+}
+
+h2 a {
+    color: white;
+    text-decoration: none;
+}
+h2 a:hover {
+    color: white;
+    text-decoration: none;
+}
+h2 a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    grid-column: span 12;
+}
+
+main img {
+    margin: 20px;
+    width: 720px;
+    border: 0px solid #999;
+    background-color: rgb(47, 91, 184);
+    border-radius: 50px;
+}
+
+.mainleft {
+    width: 64%;
+    float: left;
+}
+
+.mainright {
+    width: 30%;
+    float: left;
+}
+nav {
+    font-weight: normal;
+    text-decoration: underline;
+    font-size: 45px;
+    color: white;
+    font-family: 'Philosopher', sans-serif;
+    text-align: center;
+    margin-top: 75px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav li {
+    margin: 0;
+    padding: 0;
+    background-color: darkblue;
+    height: 125px;
+    margin: 20px;
+    padding-top: 10px;
+}
+nav li:hover {
+    background-color: rgb(255, 0, 0);
+}
+nav a {
+    color: white;    
+}
+nav a:hover {
+    color: white;
+}
+.liUP {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.liDOWN {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+
+
+
+/* Stylesheet for Digital Art */
+.SPhdr {
+    height: 120px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.SPhdr ul {
+    margin-top: 0;
+}
+
+.button {
+    margin: 0;
+    padding: 0;
+    background-color: darkblue;
+    height: 125px;
+    padding-top: 10px;
+    width: 300px;
+}
+
+.button:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+.buttonUP {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.hdrinline {
+    display: inline-block;
+    font-size: 45px;
+    color: white;
+    font-family: 'Philosopher', sans-serif;  
+    margin-right: 50px;
+}
+.button a {
+    font-size: 25px;
+    color: white;
+    font-family: 'Philosopher', sans-serif;      
+}
+.button a:hover {
+    font-size: 25px;
+    color: white;
+    font-family: 'Philosopher', sans-serif;  
+}
+.hdrhome a {
+    font-size: 50px;
+    color: white;
+    font-family: 'Philosopher', sans-serif;      
+}
+.hdrhome a:hover {
+    font-size: 50px;
+    color: white;
+    font-family: 'Philosopher', sans-serif;  
+}
