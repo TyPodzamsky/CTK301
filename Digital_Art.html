@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Art</title>
+    <link rel="stylesheet" href="Stylesheet1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
+</head>
+<body>
+<div id="wrapper">
+
+    <header class="SPhdr">
+        <div>
+                <ul>
+                    <li class="hdrinline hdrhome"><a href="Main.html">Ty Podzamksy</a></li>
+                    <li class="hdrinline"><button class="button buttonUP"><a href="Digital_Art.html">Digital Art</a></button></li>
+                    <li class="hdrinline"><button class="button buttonUP"><a href="Phoenixia.html">Creative Writing</a></button></li>
+                </ul>
+        </div>        
+    </header>
+<div class="carousel">
+
+
+    <div id="myCarousel" class="f-carousel">
+        <div class="f-carousel__slide"><img src="Astral_Space.png"></div>
+        <div class="f-carousel__slide"><img src="BTD_Fusion.png"></div>
+        <div class="f-carousel__slide"><img src="Calvaria_Splash.png"></div>
+        <div class="f-carousel__slide"><img src="Hybrid.png"></div>
+        <div class="f-carousel__slide"><img src="Kaathe_Domino_Card.png"></div>
+        <div class="f-carousel__slide"><img src="New_Twilight_Map.png"></div>
+        <div class="f-carousel__slide"><img src="Phoenixia_Logo.png"></div>
+        <div class="f-carousel__slide"><img src="Sierra_Cleric.png"></div>
+        <div class="f-carousel__slide"><img src="Sun_God_Draiga.png"></div>
+        <div class="f-carousel__slide"><img src="Trinity_Faeth.png"></div>
+    </div>
+</div>
+
+
+<div class="gallery">
+    <a href="Astral_Space.png" data-fancybox="gallery" data-caption="Astral Space">
+        <img src="Astral_Space_Thumb.png">
+      </a>
+      <a href="BTD_Fusion.png" data-fancybox="gallery" data-caption="BTD6 Fusion Fanart">
+        <img src="BTD_Fusion_Thumb.png">
+      </a>
+      <a href="Calvaria_Splash.png" data-fancybox="gallery" data-caption="Calvaria Splash">
+        <img src="Calvaria_Splash_Thumb.png">
+      </a>
+      <a href="Hybrid.png" data-fancybox="gallery" data-caption="Hybrid">
+        <img src="Hybrid_Thumb.png">
+      </a>
+      <a href="New_Twilight_Map.png" data-fancybox="gallery" data-caption="New Twilight Map">
+        <img src="New_Twilight_Map_Thumb.png">
+      </a>
+      <a href="Phoenixia_Logo.png" data-fancybox="gallery" data-caption="Phoenixia Logo">
+        <img src="Phoenixia_Logo_Thumb.png">
+      </a>
+      <a href="Sun_God_Draiga.png" data-fancybox="gallery" data-caption="Sun God Draiga">
+        <img src="Sun_God_Draiga_Thumb.png">
+      </a>
+    </div>
+
+
+</div>
+<script>
+
+    const container = document.getElementById("myCarousel");
+    const options = { infinite: true };
+    new Carousel(container, options);
+    
+</script>
+<script>   
+    Fancybox.bind("[data-fancybox]", {});
+ </script>
+</body>
+</html>
